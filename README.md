@@ -1,3 +1,6 @@
+Personal finance management with MongoDB and metabase for visualization.
+
+## Dabatase(psql)
 
 Account:
 - Account Type: string (alipay account, cash, Citibank, ...)
@@ -11,7 +14,7 @@ Transactions:
 - Date: date
 - Description: string
 - Amount: int
-- Account ID: string (external key, which account this transaction belongs to)
+- Account ID: string (which account this transaction belongs to)
 - Category: string (Subscription, Utility, Rent, etc. Default: Other)
 - Tags (optional): array of strings
 - Is Transfer: boolean (to indicate if this is a transfer between accounts)
